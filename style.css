@@ -235,10 +235,9 @@ div#gallery {
     width: 100vh;
 }
 
-h1{
+h1 {
     color: white;
     size: 100px;
-
 }
 
 /* Gallery */
@@ -254,7 +253,7 @@ div#contact {
 #fixedCon {
     position: absolute;
     z-index: 1;
-    height: 200vh;
+    height: 150vh;
     width: 20%;
     left: 0;
     background-image: linear-gradient(
@@ -299,7 +298,6 @@ div#contact {
 .title {
     font-size: 20px;
     margin-top: 20px;
-    
 }
 
 .social-icons {
@@ -326,7 +324,7 @@ div#contact {
     color: var(--clr-primary-5);
 }
 
-.insp{
+.insp {
     background-color: #000000;
     position: relative;
     bottom: 0;
@@ -339,3 +337,59 @@ div#contact {
 }
 
 /* contact */
+
+@media (max-width: 1037px) {
+    #home .name {
+        font-size: 50px;
+    }
+    #home .fam {
+        font-size: 50px;
+    }
+    #home .day {
+        font-size: 250px;
+        top: -10px;
+    }
+    #home .month {
+        font-size: 250px;
+        bottom: -10px;
+    }
+
+    div#gallery {
+        min-height: 1000vh;
+    }
+
+    #fixedGal {
+        height: 1000vh;
+        width: 50%;
+    }
+
+    div img#svg {
+        height: 250px;
+        width: 250px;
+    }
+
+    #gallery p {
+        font-size: 75px;
+    }
+
+    h1 {
+        size: 50px;
+    }
+
+    .inspText {
+        font-size: 75px;
+    }
+
+    #contact p{
+        font-size: 75px;
+        padding-top: 100px;
+    }
+
+    #fixedcontact .details{
+        font-size: 1vh;
+    }
+
+    .social-icons a{
+        font-size: 30px;
+    }
+}

@@ -92,9 +92,9 @@ $(window).scroll(function () {
         hH = $(".insp").outerHeight(),
         wH = $(window).height(),
         wS = $(this).scrollTop(),
-        roll = window.scrollY - 4000;
+        roll = window.scrollY - 5600;
     console.log(wS , hT , hH , wH);
     if (wS > hT + hH - wH) {
-        $(".insp").css("right", roll*2);
-    } else $(".insp").css("right", "0");
+        $(".insp").css({ transform: "translateX(" + -roll / 10 + "%)" });
+    } else $(".insp").css({ transform: "translateX(" + 0 + "%)" });
 });
