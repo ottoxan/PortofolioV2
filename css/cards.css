@@ -115,13 +115,13 @@
 }
 
 .container--1 {
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("Pics/MyBio.png");
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../Pics/MyBio.png");
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
 }
 
 .container--2 {
-    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("Pics/MyPorto.png") no-repeat;
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../Pics/MyPorto.png") no-repeat;
     background-position: var(--bX) var(--bY);
     background-size: 40rem auto;
 }
