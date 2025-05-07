@@ -253,6 +253,12 @@ div img#svg {
 
 /* Circle */
 
+.graph1 {
+    display: flex;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+}
 
 
 #fixedTitle {
@@ -265,7 +271,7 @@ div img#svg {
             rgba(0, 0, 0, 0));
 }
 
-#fixedTitle p{
+#fixedTitle p {
     font-size: 150px;
     color: whitesmoke;
     white-space: nowrap;
@@ -283,6 +289,7 @@ div#contact {
     position: relative;
     background-color: #000000;
 }
+
 #fixedcontact {
     flex-direction: column;
     overflow: visible;
@@ -353,24 +360,24 @@ div#contact {
     height: 100vh;
 }
 
-.aboutContainer{
+.aboutContainer {
     display: flex;
-        transform: translateX(200px);
+    transform: translateX(200px);
 }
 
 
-.aboutPfp{
+.aboutPfp {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-.aboutPfp img{
+.aboutPfp img {
     height: 70vh;
 }
 
-.aboutText{
+.aboutText {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,15 +432,15 @@ div#contact {
         bottom: -10px;
     }
 
-    #fixedTitle p{
+    #fixedTitle p {
         font-size: 50px;
     }
 
-    .about{
+    .about {
         height: 100vh;
     }
 
-    .aboutContainer{
+    .aboutContainer {
         flex-direction: column;
         transform: translateX(0px);
     }
@@ -441,16 +448,17 @@ div#contact {
     .aboutPfp {
         margin-top: 0;
     }
-    .aboutPfp img{
+
+    .aboutPfp img {
         height: 50vh;
     }
 
-    .aboutText .name{
+    .aboutText .name {
         padding-top: 20px;
         font-size: 50px !important;
     }
 
-    .aboutText p{
+    .aboutText p {
         font-size: 20px !important;
     }
 
@@ -473,4 +481,6 @@ div#contact {
     .social-icons a {
         font-size: 30px;
     }
+
+
 }
