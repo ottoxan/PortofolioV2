@@ -126,6 +126,12 @@
     background-size: 40rem auto;
 }
 
+.container--3 {
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("../Pics/ottoxan.github.io_RockPaperScissor_.png") no-repeat;
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+}
+
 @media (max-width: 1037px) {
     .container {
         width: 13rem;
