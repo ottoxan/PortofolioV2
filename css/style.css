@@ -437,7 +437,7 @@ div#contact {
     }
 
     .about {
-        height: 100vh;
+        height: 100%;
     }
 
     .aboutContainer {
